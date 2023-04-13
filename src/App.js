@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <div className="head">NotesJS</div>
+      <div className="head">NoteScape</div>
       <Search handleSearchNote={setSearchText} />
       <NotesList
         notes={notes.filter((note) =>
